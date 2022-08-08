@@ -1,0 +1,135 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    background-image: url(images/bc.jpg);
+    height: 100vh;
+}
+
+.head a{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: red;
+    margin-top: 10px;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.signinform form{
+    padding: 30px;
+    padding-bottom: 60px;
+    background-color: black;
+    display: grid;
+    color: white;
+    width: 300px;
+    margin-left: 450px;
+    opacity: 0.8;
+}
+
+.signinform .signin{
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.signinform input{
+    margin: 3px;
+    background-color: rgb(49, 45, 45);
+    color: rgb(248, 244, 244);
+    opacity: 1;
+    border-radius: 5px;
+    padding: 7px 0px;
+    padding-left: 15px;
+}
+
+.signinform .a{
+    margin-top: 20px;
+    text-align: center;
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 4px;
+}
+
+.signinform .a:hover{
+    background-color: rgb(241, 147, 147);
+}
+
+.rem{
+    font-size: 10px;
+    display: flex;
+}
+
+.rem .rem2{
+    margin-left: 170px;
+    color: white;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.signinform .rem3{
+    font-size: 12px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    font-family: arial;
+}
+
+.signinform .rem4{
+    font-size: 10px;
+    font-family: arial;
+    margin-bottom: 50px;
+}
+
+@media screen and (max-width: 650px){
+    .container{
+        background-image: url(none);
+        background-color: black;
+        margin: 0px;
+        padding: 0px;
+    }
+    .head{
+        margin: 0px;
+        padding: 0px;
+        padding-top: 10px;
+    }
+
+    .head a{
+        font-size: 20px;
+    }
+    .signinform form{
+        margin: 0px;
+        padding: 0px;
+        padding-left: 30px;
+    }
+
+    .signinform .signin{
+        font-size: 30px;
+    }
+
+    .signinform input{
+        border: none;
+        padding: 15px;
+        margin-bottom: 15px;
+    }
+
+    .signinform .a{
+        margin: 0px;
+        padding: 10px;
+        margin-top: 20px;
+    }
+
+    .signinform .in{
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .signinform .rem3{
+        margin: 0px;
+        padding: 0px;
+        margin-top: 40px;
+    }
+}

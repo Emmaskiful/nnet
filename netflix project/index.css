@@ -1,0 +1,373 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    background-image: url(images/bc.jpg);
+    height: 100vh;
+    opacity: 0.99999999;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav h1{
+    font-size: 40px;
+    color: red;
+    letter-spacing: 1px;
+    font-family: Arial;
+    font-weight: bolder;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.nav a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 15px 5px 15px;
+    background-color: red;
+    margin-top: 30px;
+    margin-right: 80px;
+    height: 3vh;
+}
+
+.nav a:hover{
+    background-color: rgb(240, 142, 142);
+}
+
+.container1{
+    justify-content: center;
+    text-align: center;
+    color: white;
+    margin-top: 100px;
+}
+
+.container1 h1{
+    font-size: 60px;
+    font-family: arial;
+    font-weight: bolder;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.container1 p{
+    font-size: 20px;
+    margin-top: 0px;
+    padding-top: 0px;
+    font-family: sans-serif;
+    letter-spacing: 3px;
+}
+
+.container1 input{
+    width: 600px;
+    height: 40px;
+    margin-top: 10px;
+}
+
+.container1 a{
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    padding: 13px 50px;
+}
+
+.container1 a:hover{
+    background-color: rgb(230, 119, 119);
+}
+
+.container2{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    border-top: 5px solid rgb(68, 63, 63);
+}
+
+.a{
+    margin-left: 150px;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    padding-right: 100px;
+}
+
+.b{
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: bold;
+   font-size: 40px;
+}
+
+.c{
+    word-spacing: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+video{
+    width: 500px;
+    border-bottom: 50px solid rgb(31, 30, 30);
+    margin-top: 30px;
+    margin-right: 100px;
+}
+
+.container3{
+    display: flex;
+    justify-content: space-between;
+    color:white;
+    background-color: black;
+    border-top: 5px solid rgb(68, 63, 63);
+}
+
+.d img{
+    width: 250px;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+
+.e h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    margin-right: 200px;
+}
+
+.e p{
+    font-family: serif;
+    font-size: 30px;
+}
+
+.container4{
+    background-color: black;
+    color: white;
+    border-top: 5px solid rgb(68, 63, 63);
+    padding-left: 150px;
+}
+   
+.f h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.f p{
+    font-size: 20px;
+    word-spacing: 5px;
+    letter-spacing: 5px;
+    padding-bottom: 50px;
+}
+
+.container5{
+    margin-top: -20px;
+    border-top: 5px solid rgb(68, 63, 63);
+    background-color:black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 80px;
+    padding-top: 50px;
+}
+
+.g img{
+    width: 450px;
+    padding-left: 100px;
+}
+
+.h h2{
+    font-size: 50px;
+    padding-right: 100px;
+}
+
+.h p{
+    font-size: 25px;
+}
+
+.container6{
+    background-color: black;
+    color: white;
+    padding-left: 300px;
+    margin-top: -35px;
+    border-top: 5px solid rgb(68, 63, 63);
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.container6 h1{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-left: 50px;
+}
+
+.container6 details{
+    border: 1px solid grey;
+    background-color: rgb(66, 65, 65);
+    width: 500px;
+    padding: 15px 8px;
+    margin-bottom: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container6 p{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 65px;
+    padding-top: 20px;
+}
+
+.i{
+    padding-left: 45px;
+}
+
+.i input{
+    width: 250px;
+    padding: 7px 2px;
+}
+
+.i a{
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    padding: 8px 40px;
+}
+
+.i a:hover{
+    background-color: rgb(240, 113, 113);
+}
+
+@media screen and (max-width: 680px){
+    .container1{
+        display: grid;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .container1 input{
+        margin-left: 50px;
+        width: 500px;
+        padding-left: 10px;
+    }
+
+    .container1 a{
+        margin: 0px;
+        margin-top: 10px;
+        width: 100px;
+        margin-left: 200px;
+    }
+
+    .container2{
+        display: grid;
+        padding-bottom: 20px;
+    }
+
+    .container2 p{
+        font-size: 20px;
+        text-align: center;
+        justify-content: center;
+        margin: 0px;
+        margin-left: -30px;
+        padding: 0px;
+    }
+
+    video{
+        margin-left: 80px;
+        padding-top: -10px;
+        margin-top: -10px;
+    }
+
+    .container3{
+        display: grid;
+    }
+
+    .container3 .e{
+        text-align: center;
+        justify-content: center;
+        padding: 0px;
+        margin: 0px;
+        margin-left: 200px;
+    }
+
+    .e h1{
+        margin: 0px;
+        padding: 0px;
+        font-size: 30px;
+    }
+
+    .e p{
+        margin: 0px;
+        padding: 0px;
+        font-size: 15px;
+        padding-bottom: 30px;
+    }
+
+    .container4{
+        text-align: center;
+        justify-content: center;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .container5{
+        margin: 0px;
+        padding: 0px;
+        display: grid;
+        text-align: center;
+        justify-content: center;
+    }
+    .h h2{
+        margin: 0px;
+        padding: 0px;
+        margin-left: 10px;
+    }
+
+    .h p{
+        padding-bottom: 30px;
+        font-size: 20px;
+    }
+
+    .container6{
+        margin: 0px;
+        padding: 0px;
+        display: grid;
+    }
+
+    .container6 h1{
+        margin: 0px;
+        padding: 0px;
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    details{
+        margin-left: 60px;
+    }
+
+    .container6 p{
+        font-size: 15px;
+    }
+
+    .i{
+        display: grid;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .i input{
+        margin-left: 30px;
+        margin-bottom: 20px;
+        width: 550px;
+        padding-left: 20px;
+    }
+
+    .i a{
+        margin-left: 200px;
+        width: 100px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}
